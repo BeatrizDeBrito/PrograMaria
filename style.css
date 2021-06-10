@@ -1,0 +1,89 @@
+body{
+  background-color: #8A71C9;
+  color:#ffffff;
+  margin: 0px 0px 30px 40px;/*sentido horário de lados*/
+  text-align: center;
+  font-family: Open sans,sans-serif;
+}
+
+h1{
+  font-size: 60px;
+  font-weight: 300;
+}
+h2{
+  color:#2A0074;
+  font-size: 40px;
+}
+h3{
+  font-size: 22px;
+  font-style: italic;
+  /*border: red 3px solid; oberservar o sistema de caixas*/
+}
+.p{
+  font-size: 20px;
+  line-height: 1.5;
+  border: pink 3px solid;
+}
+.pintura{
+  color: #04FF9F;
+  width: 100%;
+}
+.crianca{
+  color: #FF9E9E;
+  width: 100%;
+
+}
+.tabela{
+  color:#ffe36d; 
+  width: 100%;
+  /*border:orange 3px solid; observar o sistema de caixas*/
+
+}
+section{ /*parte que contem os textos*/
+  width:60%;/* 60% em relação ao body*/
+  margin: 0 auto;/* em cima e embaixo sem margem e direita e esquerda automáticamente adaptada ao dispositivo.*/
+ /* border: 1px solid red; para ver a seção*/
+}
+section section{
+  width: 100%;
+}
+ul{ /*remove a formatação de bolinhas da lista unorded */
+  list-style-type: none;
+  line-height: 2; /* espaçamento entre as linhas */
+  font-weight: 700; /* espessura da fonte */
+  /*background-color: yellow; para visualizar a "caixa" do elemento ul*/
+  margin-top: 100px;
+  /*padding-top: 50px; para observar como funciona o preenchimento*/
+  padding-left: 0; /* tira o preenchimento automático da esquerda onde tava as bolinhas e impedindo de ficar centralizado */
+}
+a{
+  text-decoration: none; /* não com cor de clicado anteriormente*/
+  color: #99ffff;
+}
+li{
+  /*background-color: green; dá pr ver a caixa do elemento lista*/
+}
+.menu ul li a{
+  color: white;
+  text-decoration: underline;
+}
+.menu{
+  background-color: #FF6CB5;
+  max-width: 60%;
+  margin: 0 auto;
+  font-weight: normal;
+  height:40px;
+}
+.menu li{
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 89px;/* 89 são os lados*/
+}
+button{
+  background-color: #41f341;
+  border: solid 1px transparent; /*borda sólida de 1px de largura e transparente;*/
+  padding: 2px 20px; /*espaçamento interno de 2px em cima e embaixo e de 20px dos lados;*/
+  border-radius: 3px; /*raio da borda deve ser de 3px;*/
+  cursor: pointer;
+  }
+  
